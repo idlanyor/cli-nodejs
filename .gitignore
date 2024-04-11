@@ -1,0 +1,8 @@
+node_modules
+*-lock.json
+Class
+dist
+.env
+.env.local
+.env.production
+Downloads

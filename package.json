@@ -1,0 +1,25 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "npx tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/figlet": "^1.5.8",
+    "@types/ink-select-input": "^3.0.5",
+    "@types/progress": "^2.0.7",
+    "typescript": "^5.4.4"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^4.3.2",
+    "axios": "^1.6.8",
+    "dotenv": "^16.4.5",
+    "figlet": "^1.7.0",
+    "progress": "^2.0.3"
+  }
+}
