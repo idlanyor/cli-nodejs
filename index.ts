@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import axios, { AxiosResponse } from "axios";
 import fs from 'fs';
 import path from 'path';
